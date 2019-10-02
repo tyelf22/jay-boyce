@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 /* NAVIGATION */
@@ -21,22 +22,58 @@
       font-size: 36px;
   }
   
-  /* MAIN */
+  /* JUMBO */
 
-  .main-background{
+  .jumbo-background{
       background-color: black;
       margin-bottom: 80px;
   }
 
+  /* MAIN */
   .main img {
     height: 300px;
     width: 200px;
   }
 
-  .main-background h1 {
+  .jumbo-background h1 {
       font-family: 'Cinzel', serif;
       color: white;
   }
 
+
+
   /* CONNECT */
+
+  .connect {
+      margin-bottom: 25px;
+  }
+
+  .connect-background {
+    background-color: black;
+    color: white;
+  }
+
+
+  @media only screen and (min-width: 768px) {
+    .connect {
+        margin: 0 17%;
+    }
+
+    .main p {
+        margin: 0 auto;
+        text-align: center;
+        min-width: 230px;
+        max-width: 230px;
+    }
+
+  }
+  
+
+  @media only screen and (min-width: 992px) {
+    .main p {
+        min-width: 300px;
+        max-width: 300px;
+    }
+  }
+
 
