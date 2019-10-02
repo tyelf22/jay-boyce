@@ -14,13 +14,29 @@
 
   .topnav a {
       display: inline-block;
-      padding: 15px;
+      padding: 5px;
       color: black;
-      text-decoration: none;   
+      text-decoration: none; 
+      font-family: 'Cinzel', serif;
+      font-size: 36px;
   }
   
   /* MAIN */
 
   .main-background{
       background-color: black;
+      margin-bottom: 80px;
   }
+
+  .main img {
+    height: 300px;
+    width: 200px;
+  }
+
+  .main-background h1 {
+      font-family: 'Cinzel', serif;
+      color: white;
+  }
+
+  /* CONNECT */
+
