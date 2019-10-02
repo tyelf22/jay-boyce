@@ -33,16 +33,27 @@ body {
       margin-bottom: 80px;
   }
 
+  .jumbo-background h1 {
+    font-family: 'Cinzel', serif;
+    color: white;
+}
+
+.vert-center {
+  text-align: center;
+}
+
+
   /* MAIN */
   .main img {
     height: 300px;
     width: 200px;
   }
 
-  .jumbo-background h1 {
-      font-family: 'Cinzel', serif;
-      color: white;
+  .main h2 {
+    font-family: 'Cinzel', serif;
   }
+
+
 
 
 
@@ -62,6 +73,7 @@ body {
   @media only screen and (min-width: 768px) {
     .connect {
         margin: 0 17%;
+        
     }
 
     .main p {
@@ -69,6 +81,12 @@ body {
         text-align: center;
         min-width: 230px;
         max-width: 230px;
+    }
+
+    .vert-center {
+      margin-top: auto;
+      margin-bottom: auto;
+      text-align: left;
     }
 
   }
