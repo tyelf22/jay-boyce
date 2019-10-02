@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 /* NAVIGATION */
 
 .topnav {
@@ -54,6 +58,7 @@
   }
 
 
+  /* MEDIA QUERIES */
   @media only screen and (min-width: 768px) {
     .connect {
         margin: 0 17%;
@@ -68,11 +73,18 @@
 
   }
   
-
   @media only screen and (min-width: 992px) {
     .main p {
         min-width: 300px;
         max-width: 300px;
+    }
+  }
+
+  @media only screen and (min-width: 1240px) {
+    .jumbo-background img {
+        max-width: 80vh;
+        margin-left: 15%;
+        
     }
   }
 
