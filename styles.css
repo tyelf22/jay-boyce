@@ -8,23 +8,74 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+.button-b {
+  padding: 0.35em 1.2em;
+  border: 2px solid #FFFFFF;
+  text-decoration: none;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.4s;
+  background-color: black;
+}
+
+.button-b:hover {
+  color:#000000;
+  background-color: white;
+}
+
+.button-w {
+  padding: 0.35em 1.2em;
+  border: 2px solid black;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  transition: all 0.4s;
+  background-color: white;
+
+}
+
+.button-w:hover {
+  color: white;
+  background-color: black;
+}
+
+
+
 /* NAVIGATION */
 
 .topnav {
     overflow: hidden;
     background-color: white;
     text-align: center;
-    box-shadow: 0 2px 2px -2px rgba;
   }
 
-  .topnav a {
-      display: inline-block;
-      padding: 5px;
-      color: black;
-      text-decoration: none; 
-      font-family: 'Cinzel', serif;
-      font-size: 36px;
-  }
+
+.pheonix {
+  height: 80px;
+  width: 70px;
+  position: absolute;
+  z-index: 10;
+  top: -5px;
+  margin-left: -15px;
+}
+
+#jay {
+  color: black;
+}
+
+#boyce {
+  margin-left: 50px;
+  color: black;
+}
+
+.topnav a {
+  display: inline-block;
+  padding: 5px;
+  color: black;
+  text-decoration: none; 
+  font-family: 'Cinzel', serif;
+  font-size: 36px;
+}
   
   /* JUMBO */
 
@@ -42,15 +93,27 @@ body {
   text-align: center;
 }
 
+.jumbo-background button {
+  margin-bottom: 50px;
+}
+
 
   /* MAIN */
   .main img {
     height: 300px;
     width: 200px;
+    margin-bottom: 30px;
   }
 
   .main h2 {
     font-family: 'Cinzel', serif;
+    margin-bottom: 15px;
+  }
+
+ 
+  .main button {
+    margin-top: 30px;
+    margin-bottom: 80px;
   }
 
 
@@ -63,18 +126,51 @@ body {
       margin-bottom: 25px;
   }
 
+  .connect h2 {
+    font-family: 'Cinzel', serif;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
   .connect-background {
     background-color: black;
     color: white;
   }
 
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flex-container > div {
+    margin-right: 40px;
+  }
+
 
   /* MEDIA QUERIES */
+  @media only screen and (max-width: 768px) {
+    .margin-fix {
+      margin: 0 5%; 
+    }
+
+    .jumbo-background h1 {
+      margin-top: -75px;
+  }
+  }
+
+
+
   @media only screen and (min-width: 768px) {
     .connect {
-        margin: 0 17%;
-        
+        margin: 0 17%;   
     }
+
+    .connect-button {
+      margin: 0 17%;
+      
+
+    }
+
 
     .main p {
         margin: 0 auto;
@@ -104,6 +200,8 @@ body {
         margin-left: 15%;
         
     }
+
   }
+
 
 
