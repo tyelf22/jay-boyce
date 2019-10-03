@@ -137,14 +137,27 @@ body {
     color: white;
   }
 
-  .flex-container {
-    display: flex;
-    flex-direction: row;
-  }
+.d-flex div {
+  margin-right: 25px;
+}
 
-  .flex-container > div {
-    margin-right: 40px;
-  }
+
+/* FOOTER */
+
+.footer {
+  background-color: black;
+}
+
+.footer img {
+  height: 200px;
+  width: 200px;
+}
+
+.footer footer {
+  color: white;
+  margin-top: -10px;
+  font-size: 12px; 
+}
 
 
   /* MEDIA QUERIES */
@@ -199,6 +212,10 @@ body {
         max-width: 80vh;
         margin-left: 15%;
         
+    }
+
+    .connect {
+      margin: 0 23%;
     }
 
   }
