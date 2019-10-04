@@ -1,3 +1,4 @@
+/* CSS RESET */
 * {
     padding: 0;
     margin: 0;
@@ -8,6 +9,7 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+/* GLOBAL BUTTON STYLING */
 .button-b {
   padding: 0.35em 1.2em;
   border: 2px solid #FFFFFF;
@@ -39,10 +41,12 @@ body {
   background-color: black;
 }
 
+button:focus {
+  outline: 0;
+}
 
 
 /* NAVIGATION */
-
 .topnav {
     overflow: hidden;
     background-color: white;
@@ -79,14 +83,14 @@ body {
   
   /* JUMBO */
 
-  .jumbo-background{
-      background-color: black;
-      margin-bottom: 80px;
-  }
+.jumbo-background{
+    background-color: black;
+    margin-bottom: 80px;
+}
 
-  .jumbo-background h1 {
-    font-family: 'Cinzel', serif;
-    color: white;
+.jumbo-background h1 {
+  font-family: 'Cinzel', serif;
+  color: white;
 }
 
 .vert-center {
@@ -99,43 +103,41 @@ body {
 
 
   /* MAIN */
-  .main img {
-    height: 300px;
-    width: 200px;
-    margin-bottom: 30px;
-  }
+.main img {
+  height: 300px;
+  width: 200px;
+  margin-bottom: 30px;
+}
 
-  .main h2 {
-    font-family: 'Cinzel', serif;
-    margin-bottom: 15px;
-  }
-
- 
-  .main button {
-    margin-top: 30px;
-    margin-bottom: 80px;
-  }
+.main h2 {
+  font-family: 'Cinzel', serif;
+  margin-bottom: 15px;
+}
 
 
+.main button {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
 
 
 
   /* CONNECT */
 
-  .connect {
-      margin-bottom: 25px;
-  }
+.connect {
+    margin-bottom: 25px;
+}
 
-  .connect h2 {
-    font-family: 'Cinzel', serif;
-    margin-top: 30px;
-    margin-bottom: 15px;
-  }
+.connect h2 {
+  font-family: 'Cinzel', serif;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
 
-  .connect-background {
-    background-color: black;
-    color: white;
-  }
+.connect-background {
+  background-color: black;
+  color: white;
+}
 
 .d-flex div {
   margin-right: 25px;
@@ -160,65 +162,61 @@ body {
 }
 
 
-  /* MEDIA QUERIES */
-  @media only screen and (max-width: 768px) {
-    .margin-fix {
-      margin: 0 5%; 
-    }
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+.margin-fix {
+  margin: 0 5%; 
+}
 
-    .jumbo-background h1 {
-      margin-top: -75px;
-  }
-  }
-
-
-
-  @media only screen and (min-width: 768px) {
-    .connect {
-        margin: 0 17%;   
-    }
-
-    .connect-button {
-      margin: 0 17%;
-      
-
-    }
+.jumbo-background h1 {
+  margin-top: -75px;
+}
+}
 
 
-    .main p {
-        margin: 0 auto;
-        text-align: center;
-        min-width: 230px;
-        max-width: 230px;
-    }
 
-    .vert-center {
-      margin-top: auto;
-      margin-bottom: auto;
-      text-align: left;
-    }
+@media only screen and (min-width: 768px) {
+.connect {
+  margin: 0 17%;   
+}
 
-  }
+.connect-button {
+  margin: 0 17%;
+}
+
+.main p {
+  margin: 0 auto;
+  text-align: center;
+  min-width: 230px;
+  max-width: 230px;
+}
+
+.vert-center {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: left;
+}
+
+}
   
-  @media only screen and (min-width: 992px) {
-    .main p {
-        min-width: 300px;
-        max-width: 300px;
-    }
-  }
+@media only screen and (min-width: 992px) {
+.main p {
+  min-width: 300px;
+  max-width: 300px;
+}
+}
 
-  @media only screen and (min-width: 1240px) {
-    .jumbo-background img {
-        max-width: 80vh;
-        margin-left: 15%;
-        
-    }
+@media only screen and (min-width: 1240px) {
+.jumbo-background img {
+  max-width: 80vh;
+  margin-left: 15%;
+}
 
-    .connect {
-      margin: 0 23%;
-    }
+.connect {
+  margin: 0 23%;
+}
 
-  }
+}
 
 
 
