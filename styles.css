@@ -18,6 +18,11 @@ body {
   text-align: center;
   transition: all 0.4s;
   background-color: black;
+
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: 3;
+ 
 }
 
 .button-b:hover {
