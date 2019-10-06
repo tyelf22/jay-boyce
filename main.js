@@ -1,4 +1,4 @@
-var $animation_elements = $('#scroller');
+var $animation_elements = $('.scroller');
 var $window = $(window);
 
 $window.on('scroll', check_if_in_view);
@@ -22,9 +22,10 @@ function check_if_in_view() {
       //check to see if this current container is within viewport
       if ((element_bottom_position >= window_top_position) &&
           (element_top_position <= window_bottom_position)) {
-        $element.addClass('animated bounceInLeft');
+        $element.addClass('animated fadeInLeft');
+        
       } else {
-        $element.removeClass('animated flash');
+        $element.removeClass('animated fadeInLeft');
       }
     });
   }
