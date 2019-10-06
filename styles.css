@@ -103,11 +103,17 @@ button:focus {
 
 
   /* MAIN */
-.main img {
+.scroller{
   height: 300px;
   width: 200px;
   margin-bottom: 30px;
+  visibility: hidden; 
 }
+
+.vis {
+  visibility: visible;
+}
+
 
 .main h2 {
   font-family: 'Cinzel', serif;

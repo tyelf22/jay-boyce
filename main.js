@@ -18,7 +18,6 @@ flagger = () => {
       else{
           return false;
       }
-      console.log(count);
 };
 
 
@@ -37,7 +36,7 @@ function check_if_in_view() {
       //check to see if this current container is within viewport
       if ((element_bottom_position >= window_top_position) &&
           (element_top_position <= window_bottom_position && flag == true)) {
-        $element.addClass('animated fadeInLeft');
+        $element.addClass('animated fadeInLeft vis');
         flag = flagger();
         
         
