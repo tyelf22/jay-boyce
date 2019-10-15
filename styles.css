@@ -33,7 +33,7 @@ body {
 
 .button-w {
   padding: 0.35em 1.2em;
-  border: 2px solid black;
+  border: 1px solid black;
   text-decoration: none;
   color: black;
   text-align: center;
@@ -116,6 +116,10 @@ button:focus {
   width: 200px;
   margin-bottom: -10px;
   visibility: hidden; 
+}
+
+.imgHeight{
+  
 }
 
 .vis {
