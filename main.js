@@ -9,7 +9,7 @@ $window.trigger('scroll');
 
 var flag = true;
 
-flagger = () => {
+/* flagger = () => {
     var count = 0;
     count++;
       if (count <= 2) {
@@ -18,7 +18,13 @@ flagger = () => {
       else{
           return false;
       }
-};
+}; */
+
+flagger = () => {
+  let count = 0;
+  count ++
+  return count <= 2 ? true : false;
+}
 
 
 function check_if_in_view() {
@@ -36,7 +42,7 @@ function check_if_in_view() {
       //check to see if this current container is within viewport
       if ((element_bottom_position >= window_top_position) &&
           (element_top_position <= window_bottom_position && flag == true)) {
-        $element.addClass('animated fadeInLeft vis');
+        $element.addClass('animated fadeInUp vis');
         flag = flagger();
         
         
