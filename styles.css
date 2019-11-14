@@ -97,7 +97,8 @@ button:focus {
 }
 
 .jumbo-background img {
-  height: 650px;
+  margin: 0 auto;
+  height: 600px;
 }
 
 .jumbo-background h1 {
