@@ -96,6 +96,10 @@ button:focus {
     margin-bottom: 80px;
 }
 
+.jumbo-background img {
+  height: 650px;
+}
+
 .jumbo-background h1 {
   font-family: 'Cinzel', serif;
   color: white;
@@ -230,6 +234,14 @@ button:focus {
 
 .vert-center{
   margin: auto 0
+}
+
+.jumbo-background h1 {
+  text-align: left;
+}
+
+.jumbo-background button {
+  float: left;
 }
   
 }
