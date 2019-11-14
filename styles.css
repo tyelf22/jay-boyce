@@ -96,6 +96,10 @@ button:focus {
     margin-bottom: 80px;
 }
 
+.jumbo-background img {
+  height: 650px;
+}
+
 .jumbo-background h1 {
   font-family: 'Cinzel', serif;
   color: white;
@@ -117,7 +121,6 @@ button:focus {
   height: 380px;
   width: 200px;
   margin-bottom: -10px;
-  visibility: hidden; 
 }
 
 
@@ -139,7 +142,6 @@ button:focus {
 }
 
 
-
   /* CONNECT */
 
 .connect {
@@ -154,6 +156,7 @@ button:focus {
 
 .connect p {
   margin-bottom: 35px;
+  
 }
 
 .connect-background {
@@ -186,7 +189,7 @@ button:focus {
 
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 576px) {
 .margin-fix {
   margin: 0 5%; 
 }
@@ -194,13 +197,18 @@ button:focus {
 .jumbo-background h1 {
   margin-top: -75px;
 }
+
 }
 
 
+@media only screen and (min-width: 576px) {
 
-@media only screen and (min-width: 768px) {
-.connect {
-  margin: 0 17%;   
+.jumbo-background h1 {
+  margin-top: -75px;
+}
+
+  .connect {
+  margin: 0 10%;   
 }
 
 .connect-button {
@@ -210,36 +218,60 @@ button:focus {
 .main p {
   margin: 0 auto;
   text-align: center;
-  min-width: 230px;
-  max-width: 230px;
+  min-width: 240px;
+  max-width: 240px;
 }
 
-.vert-center {
-  margin-top: auto;
-  margin-bottom: auto;
+}
+
+@media only screen and (min-width: 768px) {
+.main p {
+  margin: 0 auto;
+  text-align: center;
+  min-width: 300px;
+  max-width: 300px;
+}
+
+
+.vert-center{
+  margin: auto 0
+}
+
+.jumbo-background h1 {
   text-align: left;
+}
+
+.jumbo-background button {
+  float: left;
+}
+  
+}
+
+
+  @media only screen and (min-width: 992px) {
+.main p {
+  min-width: 360px;
+  max-width: 360px;
 }
 
 }
   
-@media only screen and (min-width: 992px) {
-.main p {
-  min-width: 300px;
-  max-width: 300px;
-}
-}
 
-@media only screen and (min-width: 1240px) {
+
+@media only screen and (min-width: 1200px) {
 .jumbo-background img {
   max-width: 80vh;
   margin-left: 15%;
 }
 
 .connect {
-  margin: 0 23%;
+  margin: 0 24%;
+}
+
+.main p {
+  min-width: 320px;
+  max-width: 320px;
 }
 
 }
-
-
 
