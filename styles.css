@@ -12,6 +12,7 @@ body {
 /* GLOBAL BUTTON STYLING */
 .button-b {
   padding: 0.35em 1.2em;
+  width: 150px;
   border: 1px solid #FFFFFF;
   text-decoration: none;
   color: #FFFFFF;
@@ -111,6 +112,9 @@ button:focus {
   text-align: center;
 }
 
+.jumbo-background button {
+  margin-bottom: 80px;
+}
 
   /* MAIN */
 .scroller{
@@ -162,6 +166,10 @@ button:focus {
 
 .d-flex div {
   margin-right: 25px;
+}
+
+.socialLinks div {
+  margin: 10px 20px;
 }
 
 
